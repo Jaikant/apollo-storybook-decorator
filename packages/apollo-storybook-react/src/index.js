@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { ApolloProvider } from "react-apollo";
+import { ApolloProvider } from "@apollo/react-hooks";
 import createClient from "apollo-storybook-core";
 
 export default function initializeApollo({
